@@ -12,7 +12,7 @@ public class Main {
 
         for( Forma forma : formas){
             if(forma instanceof Redimensionavel){
-                ((Redimensionavel) forma).redimensionar(2);
+                ((Redimensionavel) forma).redimensionar(0.5);
             }
             System.out.println(forma);
         }
